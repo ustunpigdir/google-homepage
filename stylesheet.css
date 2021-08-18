@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 20%;
+
+}
+#navbar {
+    width: 100%;
+    margin-top: 13px;
+    margin-left: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.image {
+    padding-top: 109px;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: transparent;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.185);
+    border-width: 1px;
+
+}
+
+.searchbar input{
+    height: 38px;
+    width: 560px;
+}
+
+.buttons {
+
+    margin: 20px 10px 20px 10px;
+    background-color: #f2f2f2;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+}
